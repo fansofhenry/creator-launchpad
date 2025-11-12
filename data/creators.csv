@@ -1,11 +1,22 @@
-Creator Name,Channel URL,Institution/Org,Focus Area,Subscribers,Avg Views per Short,Upload Frequency (Shorts),Notes
-Jeff Anderson Math,https://www.youtube.com/c/JeffAndersonMath,Community College Educator,Mathematics and learning science for college students,,,
-Professor August,https://www.youtube.com/@professoraugust,Bay Area Community College Professor,College-level learning and motivation,,,
-Dr. Kellie Alston,https://www.youtube.com/@KellieAlston,College Instructor,Online instruction and educator resources,,,
-BlackTshirtMathProfessor (Kyle Anderson),https://www.youtube.com/blacktshirtmathprofessor,Mercer County Community College,College-level math tutorials,,,
-Professor Kat,https://www.youtube.com/@professorkat,College Instructor,Mathematics from remedial to calculus,,,
-Divya Ajinth,https://www.youtube.com/watch?v=LEdfwRUD6nk,Community College Instructor,Pre-calculus and math instruction,,,
-Meredith Watts,https://www.youtube.com/watch?v=F9D4nrmSJsk,Community College Professor,Mathematics instruction,,,
-Brian McLogan,https://www.youtube.com/@brianmclogan,College Instructor,Mathematics lessons for students,,,
-Jenny Penniman,https://www.youtube.com/watch?v=MD4J_44cPRI,College Mathematics Professor,College math teaching and education content,,,
-Learning Lab SMC,https://www.youtube.com/@LearningLabSMC,Santa Monica College,Study skills and tutoring (community college based),,,
+| #  | Creator Name                             | Channel URL                                                                                                                                 | Institution / Org                          | Focus                                               |
+| -- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------- |
+| 1  | Jeff Anderson Math                       | [https://www.youtube.com/c/JeffAndersonMath/](https://www.youtube.com/c/JeffAndersonMath/) ([youtube.com][1])                               | Community college educator + creator       | Mathematics & learning-science for college students |
+| 2  | Professor August                         | [https://www.youtube.com/%40professoraugust/videos](https://www.youtube.com/%40professoraugust/videos) ([youtube.com][2])                   | Bay Area community college professor       | Various college-level topics (Bay Area CC)          |
+| 3  | Dr. Kellie Alston                        | [https://www.youtube.com/%40KellieAlston/shorts](https://www.youtube.com/%40KellieAlston/shorts) ([youtube.com][3])                         | Higher-ed instructor                       | Online instruction and educator resources           |
+| 4  | BlackTshirtMathProfessor (Kyle Anderson) | [https://www.youtube.com/blacktshirtmathprofessor](https://www.youtube.com/blacktshirtmathprofessor) ([Mercer County Community College][4]) | Mercer County Community College (Math)     | College-level math tutorials and creator content    |
+| 5  | Professor Kat                            | [https://www.youtube.com/%40professorkat/featured](https://www.youtube.com/%40professorkat/featured) ([youtube.com][5])                     | College instructor                         | Math topics from remedial to calculus               |
+| 6  | Divya Ajinth                             | [https://www.youtube.com/watch?v=LEdfwRUD6nk](https://www.youtube.com/watch?v=LEdfwRUD6nk) ([youtube.com][6])                               | Community college instructor (mathematics) | Pre-calculus & math instruction                     |
+| 7  | Meredith Watts                           | [https://www.youtube.com/watch?v=F9D4nrmSJsk](https://www.youtube.com/watch?v=F9D4nrmSJsk) ([youtube.com][7])                               | Community college professor of mathematics | Math instruction, college level                     |
+| 8  | Brian McLogan                            | [https://www.youtube.com/%40brianmclogan](https://www.youtube.com/%40brianmclogan) ([youtube.com][8])                                       | College instructor (math)                  | Math from student-perspective, supporting learners  |
+| 9  | Jenny Penniman                           | [https://www.youtube.com/watch?v=MD4J_44cPRI](https://www.youtube.com/watch?v=MD4J_44cPRI) ([youtube.com][9])                               | College mathematics professor              | College math teaching & education content           |
+| 10 | Learning Lab SMC                         | [https://www.youtube.com/@LearningLabSMC](https://www.youtube.com/@LearningLabSMC) (from earlier example)                                   | Santa Monica College                       | Study skills & tutoring (community college based)   |
+
+[1]: https://www.youtube.com/c/JeffAndersonMath?utm_source=chatgpt.com "Jeff Anderson Math"
+[2]: https://www.youtube.com/%40professoraugust/videos?utm_source=chatgpt.com "Professor August"
+[3]: https://www.youtube.com/%40KellieAlston/shorts?utm_source=chatgpt.com "Dr. Kellie Alston"
+[4]: https://www.mccc.edu/pr/General/2021/KyleAnderson_YouTubeChannel.html?utm_source=chatgpt.com "MCCC Faculty Member Kyle Anderson Creates Community ..."
+[5]: https://www.youtube.com/%40professorkat/featured?utm_source=chatgpt.com "Professor Kat"
+[6]: https://www.youtube.com/watch?v=LEdfwRUD6nk&utm_source=chatgpt.com "Divya Ajinth, Instructor of Mathematics | Waubonsee ..."
+[7]: https://www.youtube.com/watch?v=F9D4nrmSJsk&utm_source=chatgpt.com "MassBay Community College Professor Profile - Meredith Watts"
+[8]: https://www.youtube.com/%40brianmclogan?utm_source=chatgpt.com "Brian McLogan"
+[9]: https://www.youtube.com/watch?v=MD4J_44cPRI&utm_source=chatgpt.com "Meet Jenny Penniman, Mathematics Professor | Howard ..."
