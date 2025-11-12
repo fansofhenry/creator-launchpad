@@ -1,0 +1,100 @@
+import { useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+
+export default function App() {
+  const [feedback, setFeedback] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const pages = [
+    {
+      title: "Getting Started",
+      content: "Step-by-step guide to setting up your YouTube channel, branding, and accessibility tips.",
+    },
+    {
+      title: "Monetization Made Simple",
+      content: "Understand YouTube Partner Program requirements, AdSense setup, and monetization best practices.",
+    },
+    {
+      title: "Analytics Simplified",
+      content: "Learn how to interpret key metrics like watch time, CTR, and audience retention.",
+    },
+    {
+      title: "Community Stories",
+      content: "Explore inspiring stories from diverse and educational creators.",
+    },
+    {
+      title: "Troubleshooting",
+      content: "Quick fixes for upload issues, copyright claims, and metadata errors.",
+    },
+  ];
+
+  const handleSubmit = () => {
+    if (feedback.trim()) {
+      setSubmitted(true);
+      setFeedback("");
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 text-gray-800 p-6">
+      <header className="mb-10 text-center">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold text-red-600"
+        >
+          Creator Launchpad
+        </motion.h1>
+        <p className="text-lg text-gray-600 mt-2">
+          Empowering new and underrepresented YouTube creators to grow and thrive.
+        </p>
+      </header>
+
+      <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pages.map((page, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1 }}
+          >
+            <Card className="shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-gray-100 rounded-2xl">
+              <CardContent className="p-6">
+                <h2 className="text-xl font-semibold mb-3 text-red-500">{page.title}</h2>
+                <p className="text-gray-700 mb-4">{page.content}</p>
+                <Button className="bg-red-500 hover:bg-red-600 text-white rounded-xl">Explore</Button>
+              </CardContent>
+            </Card>
+          </motion.div>
+        ))}
+      </main>
+
+      <section className="mt-10 max-w-2xl mx-auto text-center">
+        <h3 className="text-2xl font-semibold mb-3">We value your feedback</h3>
+        {!submitted ? (
+          <div>
+            <textarea
+              value={feedback}
+              onChange={(e) => setFeedback(e.target.value)}
+              className="w-full border rounded-lg p-3 focus:ring-2 focus:ring-red-400"
+              rows="3"
+              placeholder="What can we improve?"
+            />
+            <Button onClick={handleSubmit} className="mt-3 bg-red-500 hover:bg-red-600 text-white">
+              Submit Feedback
+            </Button>
+          </div>
+        ) : (
+          <p className="text-green-600 font-medium">Thank you for your feedback!</p>
+        )}
+      </section>
+
+      <footer className="mt-12 text-center text-gray-500 text-sm">
+        © 2025 Creator Launchpad. Built by Henry Fan.
+      </footer>
+    </div>
+  );
+}
